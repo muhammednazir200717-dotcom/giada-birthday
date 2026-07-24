@@ -432,11 +432,13 @@ button {
   margin: 0;
   color: rgba(248, 248, 251, 0.92);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.2rem, 3vw, 1.7rem);
-  line-height: 1.9;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  line-height: 1.8;
   letter-spacing: 0.03em;
   text-align: center;
   text-wrap: balance;
+  max-height: 65vh;
+  overflow-y: auto;
 }
 
 .ending-glow {
